@@ -1,0 +1,43 @@
+
+a:hover{
+    border-radius: 2%;
+    background-color: #006414;
+}
+
+
+.tamanio{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    
+}
+
+.color-fondo{
+    background-color: #272727;
+    
+    background-repeat: no-repeat;
+    
+}
+.posicion{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.tarjeta{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin-bottom: 5%;
+}
+.fotos{
+    margin-top: 5%;
+    border-radius: 2%;
+    
+}
+.borde-gris{
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: #323a53;
+}
+.borde-verde{
+    border-width: 2px;
+    border-color: #006414;
+}
