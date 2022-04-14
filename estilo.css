@@ -1,0 +1,39 @@
+#categoria{
+    background-color: rgb(48,46,47);
+    color: white;
+    font-size: xx-large;
+    font-weight: 700;
+    font-family: serif;
+    margin-bottom: 15px;
+}
+#margen_bajo{
+    margin-bottom: 1.5rem;
+}
+#justificado{
+    text-align: justify;
+}
+.titulo{
+    font-family: 'times New Roman';
+    font-weight: 900;
+    
+}
+#fuente_parrafo{
+    font-family: Cambria;
+    font-size: large;
+    color: white;
+}
+.cuerpo{
+    background-color: rgb(104,103,101);
+}
+#pie_pagina{
+    color: white;
+}
+#prueba_container{
+    background-color: blue;
+}
+#tamanio_fuente{
+    font-weight: 700;
+}
+#margen_general{
+    margin-bottom: 3rem;
+}
