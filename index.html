@@ -13,7 +13,7 @@
 </head>
 <body class="color-fondo" >
   <header class="fondo-navbar">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark  ">
+      <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark  ">
           <div class="container-fluid">
             <span  class="navbar-brand" href="#">Kaos News<img src="img/kaos-logo.png" style="height:40px;" alt=""></span>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,20 +22,20 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0 texto-blanco">
                 <li class="nav-item">
-                  <a class="nav-link active " aria-current="page" href="#">Inicio</a>
+                  <a class="nav-link active " aria-current="page" href="index.html">Inicio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active"  aria-current="page" href="#">Noticias</a>
+                  <a class="nav-link active"  aria-current="page" href="noticia.html">Noticias</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+                  <a class="nav-link active" aria-current="page" href="index.html">Contacto</a>
                 </li>
 
 
               </ul>
               <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success text-white" type="submit">Search</button>
+                <input class="form-control me-2" type="search" placeholder="Buscar Noticias" aria-label="Search">
+                <button class="btn btn-outline-success text-white" type="submit">Buscar</button>
               </form>
             </div>
           </div>
@@ -114,11 +114,11 @@
           <div class="form-row ">
             <div class="form-group col-md-6 posicion ">
               <label class="text-white " for="inputEmail4">Email</label>
-              <input type="email" class="form-control bg-dark text-white borde-gris" id="inputEmail4" placeholder="Email">
+              <input type="email" class="form-control required bg-dark text-white borde-gris" id="inputEmail4" placeholder="Email">
             </div>
             <div class="form-group col-md-6 posicion">
               <label class="text-white" for="inputPassword4">Password</label>
-              <input type="password" class="form-control bg-dark text-white borde-gris" id="inputPassword4" placeholder="Password">
+              <input type="password" class="form-control required bg-dark text-white borde-gris" id="inputPassword4" placeholder="Password">
             </div>
           </div>
           <div class="form-group posicion">
