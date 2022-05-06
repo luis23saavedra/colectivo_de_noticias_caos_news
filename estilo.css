@@ -15,7 +15,7 @@ h2 {
 }
 
 .navbar {
-    background-color: rgb(72, 72, 72);
+    background-color: rgb(5, 70, 16);
 }
 
 a:hover {
@@ -111,4 +111,18 @@ a:hover {
 
 #guardar {
     color: red;
+}
+
+#features {
+    background-image: url("img/fondo´plantas.jpg");
+}
+
+.card-img-top {
+    width: 316px;
+    height: 316px;
+}
+
+.rounded-circle {
+    width: 50px;
+    height: 50px;
 }
